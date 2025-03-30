@@ -1,0 +1,9 @@
+#Código simples para somar dois números
+def somar(a, b):
+    return a + b
+
+num1 = 5
+num2 = 10
+resultado = somar(num1, num2)
+
+print(f"A soma de {num1} e {num2} é {resultado}")
