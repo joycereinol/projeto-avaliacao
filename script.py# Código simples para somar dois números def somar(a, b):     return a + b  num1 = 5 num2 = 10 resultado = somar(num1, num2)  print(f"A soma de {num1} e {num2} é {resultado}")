@@ -1,9 +1,15 @@
-#Código simples para somar dois números
+# Código atualizado com soma e subtração
 def somar(a, b):
     return a + b
 
+def subtrair(a, b):
+    return a - b
+
 num1 = 5
 num2 = 10
-resultado = somar(num1, num2)
 
-print(f"A soma de {num1} e {num2} é {resultado}")
+resultado_soma = somar(num1, num2)
+resultado_subtracao = subtrair(num1, num2)
+
+print(f"A soma de {num1} e {num2} é {resultado_soma}")
+print(f"A subtração de {num1} e {num2} é {resultado_subtracao}")
